@@ -2,7 +2,12 @@
 
 Support the Catalonia's referendum cause cloning this repository, in order to publish a new website exactly the same that the one that you can see in https://ifraixedes.github.io/referendumcat
 
-Fork the repository, clone it to your local,  checkout the branch `gh-pages`, make a empty commit (`git commit --allow-empty -m trigger`) and push, in order to trigger the build of the page in Github
+Here's how: 
+
+1. Fork the repository
+2. In your fork, change the branch to `gh-pages`
+3. Click the `Create New File` button
+4. Insert `.publish_website` in the filename field and any text you like in the file itself. (Both the file name and the content are actually irrelevant - we are just looking for a way to tell GitHub to publish the website). Insert any comment (just so the fields aren't empty) and click `commit directly to gh-pages branch`
 
 And that's it, you're cloned website will be available under your username, for example if your username is _supportdemocracy_ then your web site will be available in https://supportdemocracy.github.io/referendumcat
 
